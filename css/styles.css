@@ -28,25 +28,14 @@ body {
 }
 
 .guirnalda {
-    background-image: url('../assets/img/img-girnaldas.png');
+    background-image: url('../assets/img/grupo9.png');
     background-repeat: no-repeat;
     height: 300px;
-    margin-left: 15px;
-    margin-right: auto;
+    width: 100%;
+    margin-right: 15px;
     position: relative;
-
 }
 
-.names {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    -webkit-transform: translate(-50%, -70%);
-    -moz-transform: translate(-50%, -70%);
-    -ms-transform: translate(-50%, -70%);
-    -o-transform: translate(-50%, -70%);
-}
 
 .container-hour {
     border-right: 2px solid #861A2E;
