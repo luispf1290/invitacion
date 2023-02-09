@@ -130,7 +130,24 @@ body {
     width: 100%;
 }
 
-/* Pgina vestimenta */
+.text-bg-transp {
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0px 0px 30.4144px rgba(255, 255, 255, 0.05), inset 0px 2.02763px 2.02763px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(32.5124px);
+    color: #FFFFFF;
+    height: 175px;
+    border-radius: 8.94152px;
+    -webkit-border-radius: 8.94152px;
+    -moz-border-radius: 8.94152px;
+    -ms-border-radius: 8.94152px;
+    -o-border-radius: 8.94152px;
+}
+
+.text-bg-transp > img{
+    width: 100%;
+}
+
+/* Pagina vestimenta */
 
 .title {
     font-weight: 500;
@@ -155,21 +172,24 @@ body {
     background: rgba(255, 255, 255, 0.03);
     box-shadow: inset 0px 0px 38.0003px rgba(255, 255, 255, 0.05), inset 0px 2.53335px 2.53335px rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(40.6216px);
-    border-radius: 11.1717px;
+    border-radius: 11.1717px important;
     margin-left: 3%;
     margin-top: 30px;
     margin-bottom: 20px;
     text-decoration: none;
-    -webkit-border-radius: 11.1717px;
-    -moz-border-radius: 11.1717px;
-    -ms-border-radius: 11.1717px;
-    -o-border-radius: 11.1717px;
+    -webkit-border-radius: 11.1717px important;
+    -moz-border-radius: 11.1717px important;
+    -ms-border-radius: 11.1717px important;
+    -o-border-radius: 11.1717px important;
 }
 
 .btn-regalos>img {
     width: 50%;
     height: 140px;
     padding-left: 0px;
+}
+.img-regalos{
+    width: 100%;
 }
 
 .btn-text {
@@ -192,6 +212,6 @@ body {
 }
 
 /* Modal */
-.modal-account{
+.modal-account {
     background-color: #081D3C;
 }
