@@ -28,25 +28,12 @@ body {
 }
 
 .guirnalda {
-    background-image: url('../assets/img/img-girnaldas.png');
+    background-image: url('../assets/img/grupo9.png');
     background-repeat: no-repeat;
     height: 300px;
-    margin-left: 15px;
-    margin-right: auto;
-    position: relative;
-
+    width: 100%;
 }
 
-.names {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    -webkit-transform: translate(-50%, -70%);
-    -moz-transform: translate(-50%, -70%);
-    -ms-transform: translate(-50%, -70%);
-    -o-transform: translate(-50%, -70%);
-}
 
 .container-hour {
     border-right: 2px solid #861A2E;
@@ -122,6 +109,10 @@ body {
     height: 25px;
 }
 
+.img-btn{
+    width: 100%;
+}
+
 .col>a {
     text-decoration: none;
     font-weight: 400;
@@ -141,7 +132,24 @@ body {
     width: 100%;
 }
 
-/* Pgina vestimenta */
+.text-bg-transp {
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: inset 0px 0px 30.4144px rgba(255, 255, 255, 0.05), inset 0px 2.02763px 2.02763px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(32.5124px);
+    color: #FFFFFF;
+    height: 175px;
+    border-radius: 8.94152px;
+    -webkit-border-radius: 8.94152px;
+    -moz-border-radius: 8.94152px;
+    -ms-border-radius: 8.94152px;
+    -o-border-radius: 8.94152px;
+}
+
+.text-bg-transp > img{
+    width: 100%;
+}
+
+/* Pagina vestimenta */
 
 .title {
     font-weight: 500;
@@ -160,27 +168,32 @@ body {
     width: 60%;
 }
 
+/* pagina mesa de regalos */
+
 .btn-regalos {
     width: 326.28px;
     height: 140px;
     background: rgba(255, 255, 255, 0.03);
     box-shadow: inset 0px 0px 38.0003px rgba(255, 255, 255, 0.05), inset 0px 2.53335px 2.53335px rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(40.6216px);
-    border-radius: 11.1717px;
+    border-radius: 11.1717px important;
     margin-left: 3%;
     margin-top: 30px;
     margin-bottom: 20px;
     text-decoration: none;
-    -webkit-border-radius: 11.1717px;
-    -moz-border-radius: 11.1717px;
-    -ms-border-radius: 11.1717px;
-    -o-border-radius: 11.1717px;
+    -webkit-border-radius: 11.1717px important;
+    -moz-border-radius: 11.1717px important;
+    -ms-border-radius: 11.1717px important;
+    -o-border-radius: 11.1717px important;
 }
 
 .btn-regalos>img {
     width: 50%;
     height: 140px;
     padding-left: 0px;
+}
+.img-regalos{
+    width: 100%;
 }
 
 .btn-text {
@@ -203,6 +216,42 @@ body {
 }
 
 /* Modal */
-.modal-account{
+.modal-account {
     background-color: #081D3C;
+}
+
+/* contador */
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.simply-section{
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simply-amount{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.simply-word{
+    font-size: 10px;
 }
